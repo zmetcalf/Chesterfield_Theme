@@ -39,16 +39,19 @@
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
 
+
 /*
  * Home
  *
  */
 
-$home_background: "../img/home_background.jpg";
+.home_callout {
+	height: 300px;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
 
-.bg_image {
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+	.panel {
+    background-color: rgba( 242, 242, 242, 0.8 );
+	}
 }
