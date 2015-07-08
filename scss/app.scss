@@ -46,12 +46,37 @@
  */
 
 .home_callout {
-	height: 300px;
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
+
+  @media screen and (min-width: $medium-breakpoint) {
+    height: 300px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  @media screen and (max-width: $small-breakpoint) {
+    margin: rem-calc(20) inherit;
+  }
 
 	.panel {
-    background-color: rgba( 242, 242, 242, 0.8 );
+    background-color: rgba( 242, 242, 242, 0.9 );
 	}
+}
+
+/*
+ * Global Styles
+ *
+ */
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left:0;
+  width: 100%;
+  background-color: $oil;
+
+  p {
+    color: $white;
+    margin: rem-calc(5);
+  }
 }
