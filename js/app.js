@@ -1,6 +1,9 @@
 $(document).foundation();
 
 $(function() {
+
+  // Vegas Slideshow
+
   var slides = [];
 
   $.each($('.background_images'), function (index, image) {

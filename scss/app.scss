@@ -41,6 +41,27 @@
 
 
 /*
+ * Global Styles
+ *
+ */
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left:0;
+  width: 100%;
+  background-color: $oil;
+
+  p {
+    color: $white;
+    margin: rem-calc(5);
+    padding: 0 rem-calc(10);
+    font-size: rem-calc(13);
+  }
+}
+
+
+/*
  * Home
  *
  */
@@ -68,22 +89,21 @@
 	}
 }
 
-/*
- * Global Styles
- *
- */
+// Portfolio Styling
 
-footer {
-  position: fixed;
-  bottom: 0;
-  left:0;
-  width: 100%;
-  background-color: $oil;
+body.portfolio {
+  main {
+    margin: rem-calc(30) inherit;
+  }
 
-  p {
-    color: $white;
-    margin: rem-calc(5);
-    padding: 0 rem-calc(10);
-    font-size: rem-calc(13);
+  .portfolio_widget {
+    .panel {
+      background-color: rgba( 201, 31, 44, 0.9 );
+      border: 0;
+
+      h1, p {
+        color: $white
+      }
+    }
   }
 }

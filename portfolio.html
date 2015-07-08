@@ -11,7 +11,7 @@
     <script src="bower_components/modernizr/modernizr.js"></script>
   </head>
 
-  <body>
+  <body class="portfolio">
     <!-- Background Images -->
     <div class="background_images" data-image="img/home_background.jpg"></div>
     <div class="background_images" data-image="img/home_background_2.jpg"></div>
@@ -28,8 +28,8 @@
          <section class="top-bar-section">
             <!-- Left Nav Section -->
             <ul class="left">
-              <li><a href="#">Portfolio</a></li>
-              <li class="active"><a href="#">About</a></li>
+              <li class="active"><a href="#">Portfolio</a></li>
+              <li><a href="#">About</a></li>
               <li class="has-dropdown">
                 <a href="#">Contact</a>
                 <ul class="dropdown">
@@ -50,18 +50,39 @@
       </nav>
     </div>
 
-    <!-- Content Panel -->
-    <div class="home_callout row">
-      <div class="large-8 medium-8 small-10 small-offset-1 medium-offset-2 large-offset-2">
-        <div class="panel radius">
-          <h1>Chesterfield Agency</h1>
-          <p>Working with a modern web development firm should be a long term relationship. Oftentimes it is not treated this way.
-          Firms go from project to project with little care about the maintenance and administration of existing clients. At
-          Chesterfield Agency, we believe in great relationships and beautiful sites.
-          </p>
+    <!-- Portfolio Panels -->
+    <main>
+      <div class="row">
+        <div class="large-12 medium-12 small-12 columns">
+          <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-3">
+            <li>
+              <div class="portfolio_widget">
+                <img src="img/home_background.jpg">
+                <div class="panel">
+                  <p>Rebuilding Together Metro Denver Website Theme</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="portfolio_widget">
+                <img src="img/home_background.jpg">
+                <div class="panel">
+                  <p>Rebuilding Together Metro Denver Website Theme</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="portfolio_widget">
+                <img src="img/home_background.jpg">
+                <div class="panel">
+                  <p>Rebuilding Together Metro Denver Website Theme</p>
+                </div>
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
-    </div>
+    </main>
 
     <footer>
       <p><i class="fa fa-copyright"></i> 2015 Zach Metcalf</p>
