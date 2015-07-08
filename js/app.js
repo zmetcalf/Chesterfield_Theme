@@ -8,6 +8,7 @@ $(function() {
   });
 
   $('body').vegas({
-    slides: slides
+    slides: slides,
+    timer: false
   });
 });

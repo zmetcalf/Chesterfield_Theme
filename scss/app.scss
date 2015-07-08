@@ -73,14 +73,6 @@
  *
  */
 
-nav {
-  .social_media_links {
-    i {
-      color: $primary_color;
-    }
-  }
-}
-
 footer {
   position: fixed;
   bottom: 0;
@@ -91,5 +83,7 @@ footer {
   p {
     color: $white;
     margin: rem-calc(5);
+    padding: 0 rem-calc(10);
+    font-size: rem-calc(13);
   }
 }
