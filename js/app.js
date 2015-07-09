@@ -14,4 +14,12 @@ $(function() {
     slides: slides,
     timer: false
   });
+
+  // Masonry
+
+  $('.grid').masonry({
+    // options
+    itemSelector: '.grid-item',
+    columnWidth: 0,
+  });
 });
