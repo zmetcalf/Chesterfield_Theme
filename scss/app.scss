@@ -57,6 +57,14 @@
  *
  */
 
+body.content {
+  background: black;
+
+  .vegas-slide {
+    opacity: .5 !important;
+  }
+}
+
 footer {
   position: fixed;
   bottom: 0;
